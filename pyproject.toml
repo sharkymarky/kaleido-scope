@@ -2,11 +2,11 @@
 name = "kaleido-scope"
 version = "0.1.0"
 description = "GPU-accelerated kaleidoscope / mirror effect plugin for Daydream Scope"
+license = "MIT"
 requires-python = ">=3.12"
 
 [project.entry-points."scope"]
 kaleido_scope = "kaleido_scope"
-license = "MIT"
 
 [build-system]
 requires = ["hatchling"]
